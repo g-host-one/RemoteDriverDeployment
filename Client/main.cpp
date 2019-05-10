@@ -67,11 +67,11 @@ bool ArgsParser(int argc, char* argv[], std::string* file, std::string* host)
 {
 	if (argc < 5) {
 		std::cerr << "Usage: " << argv[0] << " -s service [-l file | -u] host[:port] \n\n";
-		std::cerr << "\t-s service \t Load driver name\n";
-		std::cerr << "\t-l file \t Load and start driver on target\n";
-		std::cerr << "\t-u \t\t Stop driver on target\n";
-		std::cerr << "\thost \t\t IP addres of target\n";
-		std::cerr << "\tport \t\t Port listen on target. Default: 5000" << std::endl;
+		std::cerr << "\t-s service \t Register driver as <service> on target machine\n";
+		std::cerr << "\t-l file \t Load driver from <file> and start on target machine\n";
+		std::cerr << "\t-u \t\t Stop driver on target machine\n";
+		std::cerr << "\thost \t\t IP addres of target machine\n";
+		std::cerr << "\tport \t\t Port of target machine. Default: 5000" << std::endl;
 		return 1;
 	}
 

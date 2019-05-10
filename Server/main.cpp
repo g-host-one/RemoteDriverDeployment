@@ -168,7 +168,7 @@ bool ArgsParser(int argc, char* argv[], std::string* address, int* port)
 		}
 		
 	std::cerr << "Usage: " << argv[0] << " [address:port] \n\n";
-	std::cerr << "\taddress \t IP addres listen. Default: 0.0.0.0\n";
+	std::cerr << "\taddress \t IP address listen on target. Default: 0.0.0.0\n";
 	std::cerr << "\tport \t\t Port listen on target. Default: 5000" << std::endl;
 
 	return 1;
