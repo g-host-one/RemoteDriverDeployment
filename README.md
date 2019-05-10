@@ -2,9 +2,9 @@
 
 RemoteDriverDeployment is a tool for automatic upload, registration, starting/stopping driver on target machine.
 
-##Usage
+## Usage
 
-###Client:
+### Client:
 ```
 Client.exe -s service [-l file | -u] host[:port]
 
@@ -15,7 +15,7 @@ Client.exe -s service [-l file | -u] host[:port]
         port             Port of target machine. Default: 5000
 ```
 
-###Server:
+### Server:
 ```
 Server.exe [address:port]
 
